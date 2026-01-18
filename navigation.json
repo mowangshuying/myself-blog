@@ -2,15 +2,24 @@
     "navigation":
     [
         {
-            "text": "Home",
+            "text": "主页",
             "target": "index.md",
             "toc": false
         },
         {
-            "text": "Notebook",
-            "target": "abc/vx.json",
-            "navi": true,
-            "navi_expand_level": 1
+            "text": "二级菜单",
+            "children":
+            [
+                {
+                    "text": "子菜单1",
+                    "target": "sub/downloads.md",
+                    "toc": false
+                },
+                {
+                    "text": "子菜单2",
+                    "target": "sub/markdown.md"
+                }
+            ]
         }
     ],
     "actions":
