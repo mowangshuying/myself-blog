@@ -20,6 +20,12 @@
                     "target": "sub/markdown.md"
                 }
             ]
+        },
+        {
+            "text":"使用VNote的notebook",
+            "target":"docs/vx.json",
+            "navi":true,
+            "navi_index":"docs/index.md"
         }
     ],
     "actions":
